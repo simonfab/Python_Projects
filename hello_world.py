@@ -1,3 +1,4 @@
+# includes test change to print
 # ask user for name with an appropriate prompt 
 # store in a variable - we will call "name"
 # ask user for age with an appropriate prompt (store as integer in case you want to do some maths with it)
@@ -10,6 +11,7 @@ print (name)
 age = int(input("Please enter your age..."))
 print (age)
 print ("Hello world!")
+print ("this is my git test")
 
 
 # or print out with fstring function

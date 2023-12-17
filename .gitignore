@@ -1,3 +1,4 @@
 # Ignore the virtual environment folder
 venv/
 Excluded_python_files/
+.vscode/

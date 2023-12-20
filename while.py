@@ -8,6 +8,8 @@ Pseudo code
 Declare variables for:
     - a counter so that know how many numbers have been entered
     - a running total
+    - a list to store the entered numbers in
+    - an average to store the averge in - in case you want to use it in the future
 
 Declare functions
     seeing as this is simple for using an infinite while loop I wont be declaring any functions

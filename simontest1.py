@@ -1,4 +1,4 @@
-# print("hello world")
+""" # print("hello world")
 
 #from fastapi import FastAPI
 
@@ -19,4 +19,11 @@ response = client.chat.completions.create(
   temperature=0.5,
   max_tokens=64,
   top_p=1
-)
+) """
+
+
+string_input = input("put your string in here...")
+
+for each_letter in string_input:
+  print (each_letter)
+

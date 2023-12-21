@@ -42,7 +42,7 @@ print ("Welcome to the \"pattern\" printer:\n")
 # get user input
 # calculate halfway point
 rows = int (input ("How many rows would you like print? Odd numbers"
-                   "please, like 9!..."))
+                   " please, like 9!..."))
 halfway = int (round (rows/2,0)+1)
 print ()
 

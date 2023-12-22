@@ -40,7 +40,8 @@ print(f"Your total time for this event is {event_total_time} minutes")
 
 #tests and message calc and display...
 if (swim_time <1 or cycle_time <1 or run_time <1):
-    message = "But unfortunately you did not finish all events but well done for getting here - see you next year!"
+    message = ("But unfortunately you did not finish all events"
+    " but well done for getting here - see you next year!")
 elif event_total_time <= 100:
     message = "Amazing time you have earned the Provincial Colours award"
 elif 101 <= event_total_time <=105:

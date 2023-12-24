@@ -4,6 +4,10 @@ Student details:
 #student_name = "Simon Kinsey" 
 #student_number = "SK23110011962"
 
+Notes:
+    Since receiving the feedback on task 1 re line lenths i have amended some of
+    the lines so that they are less than the limit per pylint
+
 Pseudo code
 import libraries
     math

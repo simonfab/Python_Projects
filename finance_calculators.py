@@ -161,7 +161,7 @@ while True:
                 break
         while True:
             # get number of years to save
-            No_of_years_input = input("Enter the expected number of years to save...")
+            No_of_years_input = input("Enter the expected number of YEARS to save...")
             No_of_years = validate_floats (No_of_years_input)
             if No_of_years is not None:
                 No_of_years = round(No_of_years,2)
@@ -183,8 +183,8 @@ while True:
                                     + "on two different calucations - choose from:\n"
                                     + "\"Simple\" - to see the total amount "
                                     + "returned from simple interest calculation or\n"
-                                    + "\"Compound\" - to calculate how much it will "
-                                    +"cost to pay off your mortgage\n"
+                                    + "\"Compound\" - to how much you would earn "
+                                    + "with compound intereest...\n"
                                     + "\"Move on\" to do some more calculations...\n")
 
             #process the initial choice to get consistent shortened string:
@@ -201,7 +201,6 @@ while True:
                        f"The compound interest earned would be £{total_cum_int:,.0f}\n")
             else:
                 break
-
 
   # Deal with bond calculation
     # deal with mortgage repayment (short cut is 'b')
@@ -228,7 +227,7 @@ while True:
                 break
         while True:
             #get number of months to repay
-            No_of_months_input = input("Enter the expected number of months to repay...")
+            No_of_months_input = input("Enter the expected number of MONTHS to repay...")
             No_of_months = validate_integers (No_of_months_input)
             if No_of_months is not None:
                 print (f"Your expected repayment period is {No_of_months} or "

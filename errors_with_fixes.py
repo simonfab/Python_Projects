@@ -5,7 +5,7 @@ Student details:
 #student_number = "SK23110011962"
 
 Notes:
-    using pylint guide for 100 chars for line length but as the instruction said to add a comment to each line i have not broken the "fix comment to more than one line"
+    using pylint guide for 100 chars for line length, but as the instruction said to add a comment to each line I have not broken the "fix comment to more than one line"
     still not sure about the pylint error about "Constant name... doesnt conform to UPPER_CASE etc"
 '''
 
@@ -29,7 +29,7 @@ print ("The total number of years: " + str(total_years)) #"answer_years") # fixe
 
 # Variable to calculate the total amount of months from the total amount of years and printing the result
 total_months = total_years * 12         # fixed by changing calculation to use total_years
-#print (total_months)
+
 print ("In 3 years and 6 months, I'll be " + str(total_months) + " months old") # fixed by adding parentheses and converting total_months to string
 
 #HINT, 330 months is the correct answer

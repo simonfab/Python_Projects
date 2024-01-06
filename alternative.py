@@ -1,4 +1,4 @@
-'''Task 10 - alternate characters capitalised and alternate words capitalised
+'''Task 11 - alternate characters capitalised and alternate words capitalised
 
 Student details:
 #student_name = "Simon Kinsey" 

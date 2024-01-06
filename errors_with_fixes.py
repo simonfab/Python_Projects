@@ -1,12 +1,23 @@
+'''Task 09 - Defensive programming practical task 1 - fix errors.py
+
+Student details:
+#student_name = "Simon Kinsey" 
+#student_number = "SK23110011962"
+
+Notes:
+    using pylint guide for 100 chars for line length but as the instruction said to add a comment to each line i have not broken the "fix comment to more than one line"
+    still not sure about the pylint error about "Constant name... doesnt conform to UPPER_CASE etc"
+'''
+
 # This example program is meant to demonstrate errors.
- 
+
 # There are some errors in this program. Run the program, look at the error messages, and find and fix the errors.
 
 print ("Welcome to the error program")  # fixed by adding parentheses
 print ("\n")                            # fixed by removing indent and adding parentheses = though this "\n" could have been in previous line
 
 # Variables declaring the user's age, casting the str to an int, and printing the result
-age_str = "24"                          # fixed by removing indent, changing "==" to "=", decapitalising the s in Str, removing the non numeric text from the string 
+age_str = "24"                          # fixed by removing indent, changing "==" to "=", decapitalising the s in Str, removing the non numeric text from the string (as its not used elsewhere)
 age = int(age_str)                      # fixed by removing indent, decapitalsing the S to match
 print("I'm " + str(age) + " years old.")# fixed by adding space after "m" and before "y", converting "age" int back to a string
 

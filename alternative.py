@@ -8,7 +8,7 @@ Notes:
 pylint line length limit followed (100 chars)
 note to self - research "enumerate" as this gives an automatic counter to an iterable
 
-Pseudo code
+Pseudo code:
 Ask the user for a string
 task part a = capitalise alternate letters starting with first char
 loop through string, test if its even and capitalise lowest bound is 0

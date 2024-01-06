@@ -8,13 +8,13 @@ Notes:
     from experience i know that date formatting/date handling can be problematic in all languages
 
     all this program does is tell the user whether a date is in the future or in the past
-    but if you enter todays date it will tell you in the future becuase of the use of the "less than" operator
+    but if you enter todays date the program will end of the use of the "less than/greater than" operators
+    and the deliberate incorrect use of an elif - see code
     
     if you were trying to summarise say sales transactions - this would create a critical logic failure...
 
     I had to use datetime module to make this work - which was a new experience
     using pylint guide for 100 chars for line length
-    still not sure about the pylint error about "Constant name... doesnt conform to UPPER_CASE etc"
 '''
 
 
@@ -43,3 +43,4 @@ if date_to_test < today:
     print(f"{date_to_test_f} is in the past")
 elif date_to_test > today:
     print(f"{date_to_test_f} is in the future")
+print ("program end")

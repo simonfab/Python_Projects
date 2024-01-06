@@ -5,11 +5,11 @@ Student details:
 #student_number = "SK23110011962"
 
 Notes:
-    from experience i know that date formatting/date handling can be problematic in all languages
+    From experience I know that date formatting/date handling can be problematic in all languages
 
-    all this program does is tell the user whether a date is in the future or in the past
-    but if you enter todays date the program will end of the use of the "less than/greater than" operators
-    and the deliberate incorrect use of an elif - see code
+    All this program does is tell the user whether a date is in the future or in the past
+    but if you enter todays date the program will "end" without a message to the user - 
+    becusae of the use of the "less than/greater than" operators and the deliberate incorrect use of an elif
     
     if you were trying to summarise say sales transactions - this would create a critical logic failure...
 

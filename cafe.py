@@ -43,12 +43,15 @@ cost_price = {"Tea": 2.5,
 print()
 
 # loop though the items in the menu list
-# print line calculation and extended value
+# calulate line value
+# add line value to stock total value
+# print line valuation
+
 for item in menu:
     item_value = stock_qty[item] * cost_price[item]
+    stock_value += item_value
     print (f"{item} = {stock_qty[item]} on hand at £{cost_price[item]} each = "
            f"£{item_value}")
-    stock_value += item_value
 
 # print total value
 print(f"\nTotal stock value = £{stock_value}")

@@ -12,7 +12,7 @@ while i <=50:
 print (" ".join(number_builder)) """
 
 
-# alternative test
+""" # alternative test
 
 user_string = input("Please enter your string..\n")
 new_string = ""
@@ -35,4 +35,54 @@ for i in range (len(new_string_list)):
 new_string = str(" ".join(new_string_list))
     # print (f"{new_string_list[i]}\n")
 print (new_string)
+ """
+
+
+''' a = [1,2,3]
+b = ["smile", "frown", "snarl"]
+string_list = ["dog","cat","rat"]
+my_nested_list = [a,b,string_list, "human"]
+print (my_nested_list)
+
+b2 = b.pop(1)
+print (b)
+print (my_nested_list)
+
+print (string_list)
+
+text = string_list.pop(1)
+print(text)
+print (string_list)'''
+
+""" a = [1,2,3]
+b = a.copy()
+print (a)
+print (b)
+a[1] = 7
+print (a)
+print (b) """
+
+""" num_list = [1,2,3,4,5,6,7,8,9,10,11,12]
+print (num_list)
+a = int(num_list[0])+num_list[1]
+print(a)
+multiplyedby3 = [int(num) *3 for num in num_list]
+print (multiplyedby3) """
+
+stock_value = 0
+menu = ("Tea", "Coffee", "Sandwich", "Cake")
+stock_qty = {"Tea": 100,
+         "Coffee": 200,
+         "Sandwich": 30,
+         "Cake": 25}
+cost_price = {"Tea": 2.5,
+         "Coffee": 3.0,
+         "Sandwich": 2.10,
+         "Cake": 3.25}
+print()
+for item in menu:
+    stock_value += stock_qty[item]*cost_price[item]
+    print (f"{item} = {stock_qty[item]} on hand at £{cost_price[item]} each = "
+           f"{stock_qty[item]*cost_price[item]}")
+print(f"\nTotal stock value = £{stock_value}")
 
